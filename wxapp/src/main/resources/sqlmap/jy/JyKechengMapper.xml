@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chusu.apps.dao.jy.JyKechengMapper">
+  <resultMap id="BaseResultMap" type="com.chusu.apps.model.jy.JyKecheng">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="post_time" jdbcType="TIMESTAMP" property="postTime" />
+    <result column="open_id" jdbcType="VARCHAR" property="openId" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="is_dedle" jdbcType="INTEGER" property="isDedle" />
+    <result column="images" jdbcType="VARCHAR" property="images" />
+    <result column="nic_name" jdbcType="VARCHAR" property="nicName" />
+    <result column="fenlie_id" jdbcType="INTEGER" property="fenlieId" />
+  </resultMap>
+</mapper>
